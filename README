@@ -1,0 +1,44 @@
+Terraform is an open-source Infrastructure as Code (IaC) tool developed by HashiCorp. It allows users to define, provision, and manage infrastructure resources such as servers, databases, and networking configurations in a declarative configuration language. With Terraform, you can describe your desired infrastructure in code, and Terraform will automate its creation, modification, and destruction.
+
+
+Project Title: AWS Static Website Hosting with Terraform
+
+Project Description
+This project demonstrates the deployment of a static website hosted on AWS S3 using Infrastructure as Code (IaC) with Terraform. The repository includes configuration files to automate the creation and management of AWS resources required for hosting a static website.
+
+Features
+-> Automated deployment of an S3 bucket configured for static website hosting.
+-> Uploading and serving static assets (e.g., index.html and error.html) from the S3 bucket.
+-> Configuring bucket policies for public read access to the website.
+-> Clean and modular Terraform code with variables for customization.
+
+Technologies Used :
+AWS S3 : For static website hosting.
+Terraform : To define and deploy the infrastructure.
+
+
+Deployment Steps :
+Clone this repository(https://github.com/Bhavana0918/AWS-Static-Website-Hosting-with-Terraform.git).
+Configure AWS credentials.
+Run terraform init to initialize the working directory.
+Run terraform apply to create the resources and deploy the static website.
+
+Key Files :
+-> index.html: The main landing page of the website.
+-> error.html: The custom error page.
+-> provider.tf: Defines the AWS provider and configuration.
+-> resource.tf: Contains the Terraform configuration for the S3 bucket and related policies.
+-> secrets.tfvars: Stores sensitive variables (not included in the repository, as it’s ignored by .gitignore).
+
+Outputs :
+After running terraform apply, the static website URL will be displayed in the Terraform output. Visit the URL to view the deployed website.
+
+
+##### Basic Commands #####
+
+# terraform init : Initialize Terraform Run terraform init to download provider plugins and prepare the environment.
+# terraform plan: Plan Changes Use terraform plan to see what actions Terraform will take.
+# terraform apply: Apply Changes Run terraform apply to create or update resources.
+# terraform destroy: Manage Resources Use terraform destroy to delete resources if needed.
+
+

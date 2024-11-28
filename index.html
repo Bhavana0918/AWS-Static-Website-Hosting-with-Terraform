@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Certification Path</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom right, #1e293b, #3b82f6);
+            color: #ffffff;
+            text-align: center;
+        }
+
+        header {
+            padding: 20px;
+            background-color: #0f172a;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin: 10px 0 0;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .intro {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            text-align: left;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .intro h2 {
+            color: #ffcd3c;
+            font-size: 1.8rem;
+        }
+
+        .intro p {
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+
+        .certification-path {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .certification-card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            width: 250px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .certification-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .certification-card h2 {
+            font-size: 1.5rem;
+            color: #ffcd3c;
+            margin: 0 0 10px;
+        }
+
+        .certification-card p {
+            font-size: 1rem;
+            margin: 0 0 10px;
+        }
+
+        .certification-card ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0 0;
+        }
+
+        .certification-card li {
+            text-align: left;
+            font-size: 0.9rem;
+            margin: 5px 0;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        .certification-card li::before {
+            content: "•";
+            color: #ffcd3c;
+            font-size: 1.2rem;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        .certification-badge {
+            margin: 10px 0;
+            display: block;
+            width: 80px;
+            height: 80px;
+            margin-left: auto;
+            margin-right: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .certification-badge:hover {
+            transform: scale(1.1);
+        }
+
+        .resources {
+            text-align: left;
+            margin: 20px;
+        }
+
+        .resources h2 {
+            color: #ffcd3c;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+        .resources ul {
+            list-style-type: disc;
+            margin-left: 40px;
+            line-height: 1.6;
+        }
+
+        footer {
+            padding: 10px;
+            background-color: #0f172a;
+            font-size: 0.8rem;
+        }
+
+        a {
+            color: #ffcd3c;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>AWS Certification Path</h1>
+        <p>Explore certification levels and plan your AWS journey!</p>
+    </header>
+
+    <section class="intro">
+        <h2>Why Get AWS Certified?</h2>
+        <p>
+            AWS certifications validate your cloud expertise, opening doors to top tech companies and high-paying roles. Here are some benefits:
+        </p>
+        <ul>
+            <li>Gain global recognition and career credibility.</li>
+            <li>Expand your technical knowledge and skills.</li>
+            <li>Unlock exclusive resources like AWS Summit invites and training materials.</li>
+        </ul>
+    </section>
+    
+
+    <main>
+        <section class="certification-path">
+            <!-- Foundational -->
+            <div class="certification-card">
+                <h2>Foundational</h2>
+                <img src="https://d1.awsstatic.com/training-and-certification/Cert-Badges/AWS-Certified-Cloud-Practitioner_512x512.79d05d227a48a9e5c3e24c5f7b558071.png" alt="Foundational Badge" class="certification-badge">
+                <p>Beginner-level knowledge of AWS Cloud and core services.</p>
+                <ul>
+                    <li><a href="https://aws.amazon.com/certification/certified-cloud-practitioner/" target="_blank">AWS Certified Cloud Practitioner</a></li>
+                </ul>
+            </div>
+
+            <!-- Associate -->
+            <div class="certification-card">
+                <h2>Associate</h2>
+                <img src="https://d1.awsstatic.com/training-and-certification/Cert-Badges/AWS-Certified-Solutions-Architect-Associate_512x512.bf2ece0a4c16ce4c2b6af0e3f5af5c3b.png" alt="Associate Badge" class="certification-badge">
+                <p>In-depth knowledge of AWS services for specific roles.</p>
+                <ul>
+                    <li><a href="https://aws.amazon.com/certification/certified-solutions-architect-associate/" target="_blank">Solutions Architect Associate</a></li>
+                    <li><a href="https://aws.amazon.com/certification/certified-developer-associate/" target="_blank">Developer Associate</a></li>
+                    <li><a href="https://aws.amazon.com/certification/certified-sysops-admin-associate/" target="_blank">SysOps Administrator Associate</a></li>
+                </ul>
+            </div>
+
+            <!-- Professional -->
+            <div class="certification-card">
+                <h2>Professional</h2>
+                <img src="https://d1.awsstatic.com/training-and-certification/Cert-Badges/AWS-Certified-Solutions-Architect-Professional_512x512.bf2ece0a4c16ce4c2b6af0e3f5af5c3b.png" alt="Professional Badge" class="certification-badge">
+                <p>Advanced skills for complex AWS architecture and operations.</p>
+                <ul>
+                    <li><a href="https://aws.amazon.com/certification/certified-solutions-architect-professional/" target="_blank">Solutions Architect Professional</a></li>
+                    <li><a href="https://aws.amazon.com/certification/certified-devops-engineer-professional/" target="_blank">DevOps Engineer Professional</a></li>
+                </ul>
+            </div>
+
+            <!-- Specialty -->
+            <div class="certification-card">
+                <h2>Specialty</h2>
+                <img src="https://d1.awsstatic.com/training-and-certification/Cert-Badges/AWS-Certified-Machine-Learning-Specialty_512x512.bf2ece0a4c16ce4c2b6af0e3f5af5c3b.png" alt="Specialty Badge" class="certification-badge">
+                <p>Deep expertise in specialized AWS domains.</p>
+                <ul>
+                    <li><a href="https://aws.amazon.com/certification/certified-advanced-networking-specialty/" target="_blank">Advanced Networking</a></li>
+                    <li><a href="https://aws.amazon.com/certification/certified-data-analytics-specialty/" target="_blank">Data Analytics</a></li>
+                    <li><a href="https://aws.amazon.com/certification/certified-security-specialty/" target="_blank">Security</a></li>
+                    <li><a href="https://aws.amazon.com/certification/certified-machine-learning-specialty/" target="_blank">Machine Learning</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="resources">
+            <h2>Where to Study for AWS Certifications?</h2>
+            <ul>
+                <li><a href="https://aws.amazon.com/training/" target="_blank">AWS Training and Certification</a></li>
+                <li><a href="https://www.udemy.com/" target="_blank">Udemy</a></li>
+            </ul>
+        </section>
+    
+        <section class="intro">
+            <h2>How to Make Use of AWS?</h2>
+            <ul>
+                <li>Host websites with <b>S3</b>.</li>
+                <li>Train ML models using <b>SageMaker</b>.</li>
+            </ul>
+        </section>
+    
+    </main>
+    <footer>
+        <p>© 2024 AWS Certification Guide. All rights reserved.</p>
+    </footer>
+</body>
+</html>
